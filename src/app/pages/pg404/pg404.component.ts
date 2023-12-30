@@ -1,14 +1,13 @@
 import { Component } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
 
-
 @Component({
-  selector: 'app-navbar',
+  selector: 'app-pg404',
   standalone: true,
   imports: [RouterLink, RouterOutlet],
-  templateUrl: './navbar.component.html',
-  styleUrl: './navbar.component.css'
+  templateUrl: './pg404.component.html',
+  styleUrl: './pg404.component.css'
 })
-export class NavbarComponent {
+export class Pg404Component {
 
 }
