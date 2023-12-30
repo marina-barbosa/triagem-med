@@ -1,0 +1,30 @@
+
+
+
+h5, .nav-link, .bi-clipboard2-pulse-fill {
+  color:#fff
+}
+
+.bi-clipboard2-pulse-fill{
+  scale: 2;
+  margin-left: 5px;
+  margin-right: 20px;
+}
+
+nav{
+  background: #fff;
+  height: 62px;
+}
+
+.offcanvas {
+  max-width: 300px;
+}
+
+.offcanvas-header{
+  background: var(--verde);
+  justify-content: start;
+}
+
+.offcanvas-body{
+  background: var(--bg-dark);
+}
