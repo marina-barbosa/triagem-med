@@ -1,0 +1,28 @@
+div {
+  background: var(--bg-dark);
+}
+
+form {
+  width: 300px;
+}
+
+h1{
+  color: #fff;
+}
+
+input{
+  background-color:  var(--verde);
+  /* opacity: 0.5; */
+  border: 2px solid #fff;
+}
+
+input::placeholder{
+  color: #fff;
+  opacity: 0.5;
+}
+
+#btn-login{
+  width: 100%;
+  color:#fff;
+  border: 2px solid var(--verde);
+}

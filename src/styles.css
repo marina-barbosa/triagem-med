@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Nunito:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+
+body {
+  font-family: 'Cabin', sans-serif;
+  /* font-family: 'Nunito', sans-serif; */
+  /* font-family: 'Polly', sans-serif; */
+}
+
+:root {
+  --branco-s: #f0f3f6;
+  --cinza: #c1cfcf;
+  --verde: #50baa9;
+  --bg-dark-hover: #3b5462;
+  --bg-dark: #344a57;
+}
