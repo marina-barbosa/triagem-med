@@ -3,12 +3,12 @@
 
     <a class="navbar-brand" href="#">TRIAGEM MEDICA</a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+    <button class="navbar-toggler" (click)="sideOn = !sideOn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
       aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="offcanvas offcanvas-start show" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+    <div [ngClass]="{'show':sideOn}" class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
       id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
 
       <div class="offcanvas-header">

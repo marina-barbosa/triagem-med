@@ -28,3 +28,9 @@ nav{
 .offcanvas-body{
   background: var(--bg-dark);
 }
+
+@media screen and (min-width: 1200px) {
+  .navbar-toggler {
+    display: none;
+  }
+ }
