@@ -1,9 +1,7 @@
 
 
 
-h5, .nav-link{
-  color:#fff
-}
+
 
 .bi{
   font-size: 2rem;
@@ -33,18 +31,7 @@ nav{
   height: 62px;
 }
 
-.offcanvas {
-  max-width: 300px;
-}
 
-.offcanvas-header{
-  background: var(--verde);
-  justify-content: start;
-}
-
-.offcanvas-body{
-  background: var(--bg-dark);
-}
 
 @media screen and (min-width: 1200px) {
   .navbar-toggler {

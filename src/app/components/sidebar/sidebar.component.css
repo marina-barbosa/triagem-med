@@ -1,0 +1,14 @@
+
+
+
+.navside-body {
+  padding-top: 20px;
+  width: 300px;
+  max-width: 300px;
+  height: calc(100vh - 119px);
+  margin-top: 62px;
+  margin-bottom: 57px;
+  color:#fff;
+  background: var(--bg-dark);
+}
+
