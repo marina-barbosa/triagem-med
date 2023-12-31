@@ -1,13 +1,21 @@
-<div class="vh-100 vw-100 d-flex justify-content-center align-items-center">
+<div id="bg" class="vh-100 vw-100 d-flex justify-content-center align-items-center">
   <form>
     <h1>Hello, doctor.</h1>
 
-    <div class="mb-3">
+    <div class="inputbox mb-3">
       <input type="email" class="form-control" id="email-login" aria-describedby="emailLogin" placeholder="Username">
+      <i class="bi bi-person-circle"></i>
     </div>
 
-    <div class="mb-3">
+    <div class="inputbox mb-3">
       <input type="password" class="form-control" id="pass-login" placeholder="Password">
+      <!-- <i class="bi bi-lock"></i> -->
+      <i class="bi bi-key"></i>
+    </div>
+
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Remember me</label>
     </div>
 
     <button routerLink="/main" type="submit" class="btn" id="btn-login">Login</button>

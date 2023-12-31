@@ -1,28 +1,56 @@
-div {
+#bg {
   background: var(--bg-dark);
 }
 
 form {
   width: 300px;
+  background: #ffffff10;
+  /* background: transparent;
+  backdrop-filter: blur(15px); */
+  padding: 30px;
+  border-radius: 4%;
+  box-shadow: 3px 3px 1px 0px;
 }
 
-h1{
+h1 {
   color: #fff;
+  margin-bottom: 30px;
 }
 
-input{
-  background-color:  var(--verde);
-  /* opacity: 0.5; */
-  border: 2px solid #fff;
+.inputbox {
+  border-bottom: 2px solid #fff;
+  position: relative;
 }
 
-input::placeholder{
+
+.form-control {
+  background-color: transparent;
+  border: none;
+}
+
+input::placeholder {
   color: #fff;
   opacity: 0.5;
 }
 
-#btn-login{
+.form-check-input {
+  background-color: transparent;
+  border-color: #fff;
+}
+
+label {
+  color: #fff;
+}
+
+i{
+  position: absolute;
+  left: 220px;
+  top: 7px;
+  color: #fff;
+}
+
+#btn-login {
   width: 100%;
-  color:#fff;
+  color: #fff;
   border: 2px solid var(--verde);
 }
