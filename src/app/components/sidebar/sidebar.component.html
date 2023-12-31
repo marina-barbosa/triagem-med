@@ -1,7 +1,7 @@
-<div [ngClass]="{'show':sideOn}" class="navside offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false"
+<div class="navside offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false"
       id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
 
-      <div class="navside-body">
+      <div [ngClass]="{'hideside':sideOff}" class="navside-body">
         <ul class="navbar-nav justify-content-start flex-grow-1 ps-3">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page">Home</a>

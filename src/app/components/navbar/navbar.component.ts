@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
+import { SidebarServiceService } from '../../services/sidebar-service.service';
 
 
 @Component({
@@ -11,5 +12,11 @@ import { RouterLink, RouterOutlet } from '@angular/router';
   styleUrl: './navbar.component.css'
 })
 export class NavbarComponent {
-  sideOn = true;
+
+  constructor(private sidebarService: SidebarServiceService){}
+
+  onClick():void {
+    this.sidebarService.toggleSidebar();
+   }
+
 }

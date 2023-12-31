@@ -2,7 +2,3 @@ div{
   min-height: 100vh;
   background: var(--cinza);
 }
-
-/* app-navbar, app-footer {
-  z-index: 3000;
-} */
